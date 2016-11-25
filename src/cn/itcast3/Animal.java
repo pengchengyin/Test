@@ -1,0 +1,37 @@
+package cn.itcast3;
+/*
+ * 定义动物类
+ * 属性 
+ * 	 姓名
+ *  年龄
+ * 行为
+ *   吃
+ *   睡
+ */
+public abstract class Animal {
+
+	private String name;
+	private int age;
+	
+	
+	public abstract void eat();
+	public abstract void sleep();
+	
+	
+	
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	
+}
